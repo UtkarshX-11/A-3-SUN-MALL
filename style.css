@@ -1,0 +1,596 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F9F3EA;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.nav {
+    height:4rem;
+    width: auto;
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-img img {
+    height: 140px;
+    width: auto;
+}
+
+.nav-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10.5rem;
+    margin-right: 47px;
+    width: auto;
+}
+
+
+
+.mid-links button {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color:transparent;
+    margin-right: 1rem;
+    border: transparent;
+    cursor: pointer;
+
+}
+
+.mid-links button:hover {
+    border-bottom: 2px solid black;
+
+}
+
+.nav-search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    
+}
+
+.ri-search-line{
+    position: relative;
+    display: inline-block;
+    color: black;
+    background-color: transparent;
+    font-size: 1.6rem;
+    top: 4px;
+    left: 2.5rem;
+    color: rgb(255, 208, 0);
+    
+}
+
+.nav-search-bar input {
+    align-items: center;
+    text-align: center;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 4rem;
+    padding-left: 0.8rem;
+    cursor: pointer;
+    border: 1.5px solid gray;
+
+}
+
+.search-border {
+    position:relative;
+    height: 1.7rem;
+    border-left: 1.5px solid black;
+    background-color: black;
+    display: inline-block;
+    top: 0.5rem;
+    left: -3.2rem;
+}
+
+.ri-shopping-bag-line{
+    position: relative;
+    left: -3rem;
+    color: black;
+    background-color: transparent;
+    font-size: 1.6rem;
+    top: 2px;
+    cursor: pointer;
+}
+
+/* --body */
+
+.main-container-body {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.main-leftbody {
+display: flex;
+flex-direction: column;
+gap: 20px;
+height:80vh ;
+width: 90vh;
+padding-left: 45px;
+/* background: #811919; */
+}
+
+.box01 {
+    display: flex;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #185B3A;
+    height: 2.5rem;
+    width: 15rem;
+    background: rgba(135, 223, 119, 0.215);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+.box02 {
+    font-size:2.0rem;
+    font-weight: 100;
+}
+
+.box02 b {
+    font-weight: 700;
+    color: #43730c;
+}
+
+.box03 {
+    position: relative;
+    top:-30px;
+    left: -40px;
+    width:fit-content;
+    height: 10px;
+}
+
+.box03 img {
+    height: 60px;
+}
+
+.box04 p {
+    color: rgba(133, 132, 132, 0.927);
+    font-size:1rem;
+    margin-top: 20px;
+    word-spacing: 1px;
+    line-height: 25px;
+
+}
+
+.box05 {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.box05 .btn01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    height: 58px;
+    width: 220px;
+    border-radius: 35px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#btncrl {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    background-color: rgb(254, 221, 52);
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 35px;
+    margin-left: -20px;
+
+
+}
+
+.box05 .btn01 h2 {
+    text-align: center;
+    align-items: center;
+    color: beige;
+    font-size: 17px;
+
+}
+
+.box05 .btn02 {
+    padding-left: 8px;
+    height: 58px;
+    width: 160px;
+    border-radius: 35px;
+    background-color: white;
+    
+}
+
+.box05 .btn02 .btncntnt {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+}
+
+.box05 .btn02 .btncntnt .icn1 {
+    position: relative;
+    top: 8px;
+    height: 1.7px;
+    width: 1rem;
+    background-color: black;
+}
+
+.box05 .btn02 .btncntnt h2 {
+    position: relative;
+    top:9px;
+    font-size: 2.5rem;
+    color: rgba(255, 0, 0, 0.769);
+
+}
+
+.box05 .btn02 .btncntnt .dash {
+    position: relative;
+    top: 10px;
+    background-color: rgba(128, 128, 128, 0.396);
+    height: 30px;
+    width: 1.5px;
+    border: none;
+}
+
+.box05 .btn02 .btncntnt .icn2 {
+    position: relative;
+    top: 8px;
+    color: rgb(16, 100, 16);
+    font-size: 35px;
+}
+
+.box06 {
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.box06 .love .leaf {
+    padding: 1.3rem;
+    height: 1.4rem;
+    width:1.4rem;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.box06 .love .leaf i {
+    font-size: 1.3rem; 
+    color: rgb(213, 13, 13); 
+    /* border: 2px solid rgb(243, 14, 14); */
+    padding: 0.7rem;
+    border-radius: 50%;
+
+}
+
+.love h4 {
+    position: relative;
+    padding-left: 60px;
+    top: -42px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.love p {
+    position: relative;
+    padding-left: 65px;
+    top: -40px;
+    font-size: 0.9rem;
+    color: gray;
+    
+}
+
+.box06 .love .leaf #fire {
+    font-size: 1.3rem; 
+    color: rgb(213, 13, 13); 
+    
+    padding: 0.7rem;
+    border-radius: 50%;
+
+}
+
+.main-midbody {
+    height: 80vh;
+    width: 70vh;
+    /* background-color: #199515; */
+
+}
+
+.main-midbody .main-circle {
+    height: 450px;
+    width: 450px;
+    background-color: rgba(155, 183, 31, 0.215);
+    border-radius: 50%;
+}
+
+.main-midbody img {
+    height: 580px;
+    width: 550px;
+    position: absolute;
+    top: 80px;
+    margin-left: -70px;
+}
+
+.main-rightbody {
+    display: flex;
+    margin-top: 70px;
+    height: 60vh;
+    width: 41vh;
+    /* background-color: rgb(73, 73, 21); */
+
+}
+
+.main-rightbody .right-col {
+    height: 300px;
+    width: 100px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.main-rightbody .right-col .crl {
+
+    height: 70px;
+    width: 70px;
+    background-color: rgba(255, 0, 0, 0.18);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-rightbody .right-col .crl img {
+    height: 35px;
+    width: 35px;
+
+    
+}
+
+.main-rightbody .right-col .crl #chilli {
+    height: 90px;
+    width: 70px;
+}
+
+.main-rightbody .right-col .crl #meat {
+    height: 50px;
+    width: 50px;
+}
+
+.main-rightbody .right-col-txt {
+    height: 350px;
+    width: 400px;
+    
+}
+
+.main-rightbody .right-col-txt .txt01 h2 {
+    font-size: 17px;
+    margin: 10px 20px 3px 20px;
+
+}
+
+.main-rightbody .right-col-txt .txt01 p {
+    color: gray;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.main-rightbody .right-col-txt .txt02 h2 {
+    font-size: 17px;
+    margin: 60px 20px 3px 20px;
+
+}
+
+.main-rightbody .right-col-txt .txt02 p {
+    color: gray;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.main-rightbody .right-col-txt .txt03 h2 {
+    font-size: 17px;
+    margin: 59px 20px 3px 20px;
+}
+
+.main-rightbody .right-col-txt .txt03 p {
+    color: gray;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.main-container .btm-body {
+    width: 90%;
+    height: 240px;
+    background-color: rgb(8, 108, 8);
+    margin: 20px 10px 10px 49px;
+    border-radius: 40px;
+    display: flex ;
+    gap: 50px;
+}
+
+.main-container .btm-body .left-btm .btm-txt  {
+    padding:50px 0px 20px 50px;
+    color: white;
+    
+}
+
+.main-container .btm-body .left-btm .btm-txt .line {
+    height: 3px;
+    width: 35px;
+    margin-top: 7px;
+    background-color:rgb(222, 222, 16);
+    border-radius: 20%;
+
+}
+
+.main-container .btm-body .left-btm .btm-txt .line-crl {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(222, 222, 16);
+    margin-top: -5px;
+    margin-left: 40px;
+    border-radius: 50%;
+
+}
+
+.main-container .btm-body .left-btm .btm-txt .line-2 {
+    height: 3px;
+    width: 35px;
+    margin-top: -5px;
+    margin-left: 55px;
+    background-color: rgb(222, 222, 16);
+    border-radius: 20%;
+
+}
+
+.main-container .btm-body .left-btm .btm-btns {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    margin-left: 40px;
+    gap: 30px;
+}
+
+.main-container .btm-body .left-btm .btm-btns .btmbtn1 {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(228, 228, 228);
+    display:flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: gray;
+    cursor: pointer;
+}
+
+.main-container .btm-body .left-btm .btm-btns .btmbtn2 {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    display:flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.main-container .btm-body .btm-cardblock {
+    height: 200px;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.main-container .btm-body .btm-cardblock .btm-card {
+    height: 170px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin:18px;
+    display: flex;
+    gap: 4px;
+    
+}
+
+.main-container .btm-body .btm-cardblock .btm-card .sec1 img {
+    height: 240px;
+    width: auto;
+    margin-top: -35px;
+    margin-left: -9px;
+}
+
+.main-container .btm-body .btm-cardblock .btm-card .sec2 .chips-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-container .btm-body .btm-cardblock .btm-card .sec2 h5 {
+    font-size: 14px;
+    padding-top:14px ;
+
+}
+
+.ratings div {
+    font-size:20px;
+    color:#FFC107;
+    display: inline;
+}
+
+.btm-cardblock .btm-card .sec2 .chips-data .ratings span {
+    font-size : 13px;
+    color:#333;
+    font-weight: 500;
+}
+
+.btm-cardblock .btm-card .sec2 .chips-data h2 {
+    font-size: 1.5rem;
+}
+
+.btm-cardblock .btm-card .sec2 .chips-data .odr-btn {
+    height: 34px;
+    width: 130px;
+    background-color: rgb(219, 10, 10);
+    border-radius: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btm-cardblock .btm-card .sec2 .chips-data .odr-btn p{
+    font-size: 10px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.btm-cardblock .btm-card .sec2 .chips-data .odr-btn i {
+    font-size: 15px;
+    color: white;
+    
+}
